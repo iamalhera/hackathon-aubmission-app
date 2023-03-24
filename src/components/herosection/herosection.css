@@ -1,0 +1,25 @@
+.app__hero{
+    display : flex ;
+    flex-direction : row;
+    width : 100%;
+    padding : 5rem ;
+    background-color: var(--secondary-color);
+    color : var(--white-color);
+}
+.hero-left{
+    display : flex ;
+    flex-direction : column ;
+    gap : 2rem ;
+    margin : 0 5rem ;
+}
+.hero-text{
+    font-size : 1.2rem ;
+}
+.primary-btn{
+    padding : 1rem ;
+    border : none;
+    border-radius : 8px;
+    background-color: var(--primary-color);
+    color : var(--white-color);
+    font-weight : bold;
+}
